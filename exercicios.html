@@ -1,0 +1,27 @@
+<script>
+    // 9 + 10
+    function somar(a, b){
+        return a + b;
+    }//fim da funcao
+     
+    function subtracao(a,b){
+        if(a>b){
+        return a - b;
+        }else{
+        document.write("deu ruim! 😒");
+        }
+    }//fim da funcao
+     
+    function mensagem(msg, nome){
+        document.write(msg + nome);
+    }//fim da funcao
+     
+    mensagem("☺ Bem vindo ao sistema, ", "Ezequiel");
+    document.write("<br>" + "soma:");
+    document.write(somar(9,10));
+    document.write("<br>"+ "subtracao:");
+    document.write(subtracao(2,10));
+    document.write("<br>");
+    mensagem("👍 Obrigada por usar o sistema, ","Ezequiel");
+     
+    </script>
